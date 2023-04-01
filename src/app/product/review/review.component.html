@@ -1,0 +1,43 @@
+<form (ngSubmit)="review()">
+  <div class="mb-3">
+    <label for="name" class="form-label">Name: </label>
+    <input type="text" class="form-control" id="name" #name="ngModel" [(ngModel)]="reviewForm.name" name="name" required>
+  </div>
+  <div class="alert alert-danger"
+    *ngIf="name.dirty && name.invalid">
+    Name is required
+</div>
+  <div class="mb-3">
+    <label for="name" class="form-label">Email: </label>
+    <input type="email" class="form-control" id="email" #email="ngModel" [(ngModel)]="reviewForm.email" name="email" required>
+  </div>
+  <div class="alert alert-danger"
+    *ngIf="email.dirty && email.invalid">
+    Email is required
+</div>
+  <div class="mb-3">
+    <label for="rating">Rating</label>
+    <select class="form-select" #rating="ngModel" [(ngModel)]="reviewForm.rating" name="rating" required>
+      <option selected></option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+  </div>
+  <div class="alert alert-danger"
+    *ngIf="rating.dirty && rating.invalid">
+    Give Rating
+</div>
+  <div class="mb-3">
+    <label for="name" class="form-label">Write your review </label><br>
+    <textarea name="review" id="review" #reviewd="ngModel" rows="3" [(ngModel)]="reviewForm.review" name="review" required></textarea>
+  </div>
+  <div class="alert alert-danger"
+  *ngIf="reviewd.dirty && reviewd.invalid">
+  Review is required
+</div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{{reviewForm|json}}

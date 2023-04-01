@@ -1,0 +1,59 @@
+{
+  "products":[
+
+{
+  "image":"assets/iphone.png",
+  "id":1,
+  "name":"iphone",
+  "price":76745.673,
+  "publishdate":"Mon Feb 13 2013 19:17:58 GMT+0530 (India Standard Time) ",
+  "code":"M-11",
+  "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, perspiciatis veritatis facere, autem repudiandae quia enim incidunt, dolor laboriosam ipsum delectus suscipit dolorem? Illum autem aspernatur, quaerat consequuntur aliquam delectus?"
+},
+{
+  "image":"assets/tv.png",
+  "id":2,
+  "name":"tv",
+  "price":27000,
+  "publishdate":"Mon Feb 13 2013 19:17:58 GMT+0530 (India Standard Time) ",
+  "code":"M-11",
+  "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, perspiciatis veritatis facere, autem repudiandae quia enim incidunt, dolor laboriosam ipsum delectus suscipit dolorem? Illum autem aspernatur, quaerat consequuntur aliquam delectus?"
+},
+{
+  "image":"assets/vivo.png",
+  "id":3,
+  "name":"vivo phone",
+  "price":12000,
+  "publishdate":"Mon Feb 13 2013 19:17:58 GMT+0530 (India Standard Time) ",
+  "code":"M-11",
+  "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, perspiciatis veritatis facere, autem repudiandae quia enim incidunt, dolor laboriosam ipsum delectus suscipit dolorem? Illum autem aspernatur, quaerat consequuntur aliquam delectus?"
+},
+{
+  "image":"assets/fridge.png",
+  "id":4,
+  "name":"fridge",
+  "price":32000,
+  "publishdate":"Mon Feb 13 2013 19:17:58 GMT+0530 (India Standard Time) ",
+  "code":"M-11",
+  "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, perspiciatis veritatis facere, autem repudiandae quia enim incidunt, dolor laboriosam ipsum delectus suscipit dolorem? Illum autem aspernatur, quaerat consequuntur aliquam delectus?"
+},
+{
+  "image":"assets/oven.png",
+  "id":5,
+  "name":"oven",
+  "price":9000,
+  "publishdate":"Mon Feb 13 2013 19:17:58 GMT+0530 (India Standard Time) ",
+  "code":"M-11",
+  "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, perspiciatis veritatis facere, autem repudiandae quia enim incidunt, dolor laboriosam ipsum delectus suscipit dolorem? Illum autem aspernatur, quaerat consequuntur aliquam delectus?"
+},
+{
+  "image":"assets/washing.png",
+  "id":6,
+  "name":"washing machine",
+  "price":26000,
+  "publishdate":"Mon Feb 13 2013 19:17:58 GMT+0530 (India Standard Time) ",
+  "code":"M-11",
+  "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, perspiciatis veritatis facere, autem repudiandae quia enim incidunt, dolor laboriosam ipsum delectus suscipit dolorem? Illum autem aspernatur, quaerat consequuntur aliquam delectus?"
+}
+  ]
+}
